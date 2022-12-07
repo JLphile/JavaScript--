@@ -59,18 +59,18 @@
   - 自定义属性
 
 
-## 10.原型链和继承
+## 10~11.原型链和继承
 
 - 可枚举属性的补充
   - enumerable ：false  设置为false时，浏览器显示为灰色，方便调试
-  
+
 - JavaScript中的类和对象
 
--  面向对象的特性
+- 面向对象的特性
   - 封装 
   - 继承
   - 多态
-  
+
 - JavaScript的原型链
 
 - Object顶层原型
@@ -79,33 +79,54 @@
 
 - 继承
   - 父类：公共属性和方法
-  
+
   - 子类：特有属性和方法
-  
+
   - 原型链的继承方案
-  
+
   - 借用构造函数继承
     - 子类 借用 父类的构造函数为自己添加属性并赋值
-  
+
     - ```js
       function Child(params) {
         Parent.call(this,params)
       }
       Child.prototype=new Parent
       ```
-  
+
   - 父类原型赋值给子类
-  
+
     ```JS
     Child.prototype=Parent.prototype
     ```
-  
+
   - 原型式继承3种方式
-  
+
   - 寄生式继承（了解）
-  
+
     - 原型式继承和工厂函数结合
-  
+
   - 寄生组合式继承（最终方案）
 
-## 
+- 判断方法的补充
+
+  - hasOwnProperty
+  - in
+  - for in
+  - instanceof
+  - isPrototypeOf
+
+- 对象及函数的原型之间的关系
+
+## 12.  认识class定义类
+
+- class定义类的方式
+- class的构造方法
+- class中的方法定义
+  -  类的访问器方法
+  - 类的静态方法（类方法）
+- class中实现继承
+  - super  
+  - static
+- ES 6转ES 5代码
+  - bable
