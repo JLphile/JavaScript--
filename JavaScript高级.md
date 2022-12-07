@@ -58,12 +58,12 @@
   - constructor属性
   - 自定义属性
 
-
 ## 10~11.原型链和继承
 
 - 可枚举属性的补充
-  - enumerable ：false  设置为false时，浏览器显示为灰色，方便调试
-
+  
+- enumerable ：false  设置为false时，浏览器显示为灰色，方便调试
+  
 - JavaScript中的类和对象
 
 - 面向对象的特性
@@ -118,7 +118,7 @@
 
 - 对象及函数的原型之间的关系
 
-## 12.  认识class定义类
+## 12.  认识class定义类及babel转码解读
 
 - class定义类的方式
 - class的构造方法
@@ -129,4 +129,27 @@
   - super  
   - static
 - ES 6转ES 5代码
-  - bable
+  - babel
+- ES 6转ES 5代码的继承
+- 阅读Babel源码
+
+## 13. ES 6 存储数据
+
+- Set的基本使用
+  -  数据不允许重复
+- WeakSet 使用（一般了解）
+- Map的基本使用
+-  WeakMap的使用
+
+
+
+
+
+
+
+
+
+
+
+
+
