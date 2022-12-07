@@ -63,18 +63,49 @@
 
 - 可枚举属性的补充
   - enumerable ：false  设置为false时，浏览器显示为灰色，方便调试
--  JavaScript中的类和对象
+  
+- JavaScript中的类和对象
+
 -  面向对象的特性
   - 封装 
   - 继承
   - 多态
+  
 - JavaScript的原型链
+
 - Object顶层原型
+
 - Object是所有类的父类
+
 - 继承
   - 父类：公共属性和方法
+  
   - 子类：特有属性和方法
+  
   - 原型链的继承方案
+  
   - 借用构造函数继承
     - 子类 借用 父类的构造函数为自己添加属性并赋值
+  
+    - ```js
+      function Child(params) {
+        Parent.call(this,params)
+      }
+      Child.prototype=new Parent
+      ```
+  
+  - 父类原型赋值给子类
+  
+    ```JS
+    Child.prototype=Parent.prototype
+    ```
+  
+  - 原型式继承3种方式
+  
+  - 寄生式继承（了解）
+  
+    - 原型式继承和工厂函数结合
+  
+  - 寄生组合式继承（最终方案）
 
+## 
