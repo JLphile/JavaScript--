@@ -140,12 +140,20 @@
 - WeakSet 使用（一般了解）
 - Map的基本使用
 -  WeakMap的使用
+- ES 7
+  - Array Includes
+  - 指数运算符 **
 
 
 
 
 
+------
 
+## 16.ES6知识点讲解
+
+- 对象字面量增强
+- 解构Destructing
 
 
 
